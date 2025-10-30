@@ -1,6 +1,6 @@
 qtd_primos = 0
 
-for n in range(1,100):
+for n in range(1, 1000):
     n_vezes_div = 0
 
     for n2 in range(1, n+1):

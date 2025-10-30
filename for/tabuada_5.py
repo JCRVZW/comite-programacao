@@ -1,2 +1,2 @@
-for tab in range(5, 55, 5):
-    print(tab)
+for numero in range(11):
+    print(numero * 8)

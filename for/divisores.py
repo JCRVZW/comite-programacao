@@ -1,4 +1,4 @@
-numero = int(input("Informe um numero -> "))
+numero = int(input('Informe um numero -> '))
 
 for n in range(1, numero + 1):
     if numero % n == 0:
