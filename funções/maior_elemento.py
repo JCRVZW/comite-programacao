@@ -1,3 +1,8 @@
 def maior_elemento(lista):
     return max(lista)
-print(maior_elemento([2,3,5,7,11,13])) 
+def main():
+
+    numeros = [4, 1, 8, 3, 9, 2]
+    print("O maior elemento é:", maior_elemento(numeros))   
+    
+main()

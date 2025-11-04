@@ -5,4 +5,10 @@ def numero_primo(n):
         if n % i == 0:
             return False
     return True
-print(numero_primo(13))
+def main():
+    teste = 13
+    if numero_primo(teste):
+        print(f"{teste} é um número primo.")
+    else:
+        print(f"{teste} não é um número primo.")
+main()
