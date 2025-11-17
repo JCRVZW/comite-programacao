@@ -1,20 +1,21 @@
-x = float(input("Informe o primeiro lado -> "))
-y = float(input("Informe o segundo lado -> "))
-z = float(input("Informe o terceiro lado -> "))
+lado_1 = int(input("Informe o valor do primeiro lado "))
+lado_2 = int(input("Informe o valor do segundo lado "))
+lado_3 = int(input("Informe o valor do terceiro lado "))
 
-if x + y > z or x + z > y or y + z > x:
-    print("É um triangulo valido")
-x == y == z
+if lado_1 + lado_2 > lado_3 or \
+   lado_2 + lado_3 > lado_1 or \
+   lado_1 + lado_3 > lado_2:
+    print("Triango válido!")
 
-if x == y == z:
-     print(" Triangulo Equilátero")
-elif x == y or\
-y == z or\
-x == z:
-    print("Triangulo Isóceles")
-elif x != y != z: 
-    print("Triangulo escaleno")
+    if lado_1 == lado_2 == lado_3:
+        print("Triangulo equilatero")
+    elif lado_1 == lado_2 or \
+            lado_2 == lado_3 or \
+            lado_1 == lado_3:
+        print("Triangulo Isóceles")
+    elif lado_1 != lado_2 != lado_3:
+        print("Triangulo escaleno")
+    else:
+        print("Outro tipo")
 else:
-    print("Triangulo invalido")
-
-   
+    print("Triangulo inválido")

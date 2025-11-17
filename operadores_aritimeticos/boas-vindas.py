@@ -1,13 +1,12 @@
 # Coleta das variaveis
-nome = input("informe o seu nome -> ")
-idade = int(input("informe a sua idade -> "))
+nome = input("Informe o seu nome -> ")
+idade = int(input("Informe a sua idade -> "))
 
 # Mensagem de boas vindas
-print ("Olá ",nome, "seja bem vindo!")
+print("Olá ", nome, "Seja bem vindo!")
 
-#calculando a idade futura
+# Calculando a idade futura
 idade_futura = idade + 5
 
-#apresentar idade futura
-print("A sua idade daqui a 5 anos será -> ", idade_futura)
-
+# apresentar idade futura
+print("A sua idade daqui 5 anos será -> ", idade_futura)

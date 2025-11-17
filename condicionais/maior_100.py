@@ -1,6 +1,7 @@
-numero = int(input("Informe um numero -> "))
+valor_1 = float(input("Informe o primeiro valor -> "))
+valor_2 = float(input("Informe o segundo valor -> "))
 
-if numero > 100:
-    print("O numero é maior que 100")
+if valor_1 + valor_2 > 100:
+    print("A soma dos valores é maior que 100")
 else:
-    print("O numero não é maior ou igual a 100")
+    print("A soma dos valores é menor que 100")
