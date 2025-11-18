@@ -1,0 +1,4 @@
+Relatório de Logs
+existen 0 ocorrencias do log INFO
+existen 0 ocorrencias do log WARNING
+existen 0 ocorrencias do log ERROR
