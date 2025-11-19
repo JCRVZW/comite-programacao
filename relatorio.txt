@@ -1,4 +1,4 @@
-Relatório de Logs
-existen 0 ocorrencias do log INFO
-existen 0 ocorrencias do log WARNING
-existen 0 ocorrencias do log ERROR
+Relatï¿½rio de Logs
+existen 170 ocorrencias do log INFO
+existen 159 ocorrencias do log WARNING
+existen 171 ocorrencias do log ERROR

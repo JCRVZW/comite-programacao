@@ -26,7 +26,7 @@ def gerar_relatorio(resultados):
         print(f"existen {valor} ocorrencias do log {chave}")
 
 def main():
-    nome_arquivo = 'log.txt'  
+    nome_arquivo = 'log_desafio.txt'  
     resultados = ler_logs(nome_arquivo)
     gerar_relatorio(resultados)
 
