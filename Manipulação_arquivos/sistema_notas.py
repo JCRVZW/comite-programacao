@@ -10,7 +10,7 @@ def boletim(nome, n1, n2, n3):
 
     return {'nome': nome, 'media': media, 'situacao': status} 
 
-aluno = boletim("Shevchenko", 7, 7.6, 6.86)
+aluno = boletim("Shevchenko", 7.0, 7.6, 7.86)
 print(aluno)
 with open ('boletim.txt', 'w') as arquivo:
 
